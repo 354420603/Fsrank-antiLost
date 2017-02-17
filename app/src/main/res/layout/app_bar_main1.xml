@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SlidingPane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/main_activity_left" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rg_menu" />
+
+        <RadioGroup
+            android:id="@+id/rg_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tab_home"
+                style="@style/main_home_tab_style"
+                android:background="@drawable/main_home_icon_bg"
+                android:drawableTop="@drawable/home_ico"
+                android:text="主界面"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/tab_location"
+                style="@style/main_home_tab_style"
+                android:background="@drawable/main_location_icon_bg"
+                android:drawableTop="@drawable/location_ico"
+                android:text="位置"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/tab_camera"
+                style="@style/main_home_tab_style"
+                android:background="@drawable/main_take_icon_bg"
+                android:drawableTop="@drawable/take_ico"
+                android:text="拍照"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/tab_about"
+                style="@style/main_home_tab_style"
+                android:background="@drawable/main_about_icon_bg"
+                android:drawableTop="@drawable/about_ico"
+                android:text="关于"
+                android:textColor="@android:color/white" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</android.support.v4.widget.SlidingPaneLayout>

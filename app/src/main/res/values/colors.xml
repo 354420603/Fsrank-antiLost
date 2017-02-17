@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fff</color>
+    <color name="tab_in">#8dabc3</color>
+    <color name="tab_active">#10d09f</color>
+    <color name="text_color_top">#435e81</color>
+    <color name="divide_color">#b4cce0</color>
+    <color name="member_tv_color">#335e81</color>
+    <color name="pop_title_gray">#f2f3f6</color>
+    <color name="register_tv_color">#5d7a95</color>
+    <color name="normal_txt_color">#8d8d8d</color>
+    <color name="select_txt_color">#000</color>
+    <color name="gloucose_high">#f76e75</color>
+    <color name="gloucose_before_normal">#fdcc0d</color>
+    <color name="gloucose_low">#3eb2fc</color>
+    <color name="gray_background">#f1f1f1</color>
+    <color name="text_color_hint">#999999</color>
+    <color name="color_title">@android:color/white</color>
+    <color name="titlebar">@color/primary_color</color>
+
+    <color name="gray_backgroud">#f1f1f1</color>
+    <color name="primary_color">#c7a770</color>
+
+    <color name="textcolor_normal">#333333</color>
+    <color name="textcolor_second">#666666</color>
+    <color name="textcolor_hint">#999999</color>
+    <color name="textcolor_disable">#dddddd</color>
+
+    <color name="divider_line">#dddddd</color>
+
+    <color name="tabbar_text_normal_color">#333333</color>
+    <color name="tabbar_text_selected_color">@color/primary_color</color>
+
+    <color name="common_button_normal">#f5c435</color>
+    <color name="common_button_pressed">#e4b324</color>
+    <color name="common_button_disable">#dddddd</color>
+    <color name="list_item_pressed">#19000000</color>
+    <color name="list_item_normal">#ffffff</color>
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name="purple_pressed">#9F79EE</color>
+</resources>
